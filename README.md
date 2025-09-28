@@ -66,5 +66,4 @@ It includes functionality for managing **in-house parts, outsourced parts, and p
 
 ## 👨‍💻 Development Tools
 - 🧑‍💻 **VS Code** – IDE  
-- 🛠️ **Postman** – API testing & documentation  
 - 🔗 **Git & GitHub** – version control  
