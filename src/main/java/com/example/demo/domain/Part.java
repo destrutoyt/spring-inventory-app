@@ -1,6 +1,4 @@
 package com.example.demo.domain;
-
-import com.example.demo.validators.ValidDeletePart;
 import com.example.demo.validators.ValidPartInv;
 
 import javax.persistence.*;
@@ -17,7 +15,6 @@ import java.util.Set;
  */
 @Entity
 @ValidPartInv
-@ValidDeletePart
 @Inheritance(strategy = InheritanceType.SINGLE_TABLE)
 @DiscriminatorColumn(name="part_type",discriminatorType = DiscriminatorType.INTEGER)
 @Table(name="Parts")
