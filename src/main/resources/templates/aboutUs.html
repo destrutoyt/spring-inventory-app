@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>McLareen Bike Shop</title>
+
+    <link th:href="@{css/styles.css}" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <a class="nav-link" href="#section1">Who We Are</a>
+        <a class="nav-link" href="#section2">Our History</a>
+        <a class="nav-link" href="#section3">How We Work</a>
+        <a class="nav-link" th:href="@{/mainscreen}">Admin</a>
+    </nav>
+    <div class="container">
+        <div class="hero">
+            <h1 class="title">McLareen Bike Shop</h1>
+        </div>
+        <section id="section1">
+            <h3 class="subtitle">Who We Are</h3>
+            <p>
+                At <strong>McLareen Bike Shop</strong>, cycling is not just what we do, it is who we are. 
+                As a proud, family-owned business, we are dedicated to helping riders of every level 
+                discover the perfect bike and gear for their lifestyle. Whether you are commuting, 
+                exploring trails, or training for your next race, our friendly and knowledgeable team 
+                is here to guide you every pedal of the way.
+            </p>
+        </section>
+
+        <section id="section2">
+            <h3 class="subtitle">Our History</h3>
+            <p>
+                Since opening our doors in <strong>1990</strong>, McLareen Bike Shop has grown from a small 
+                neighborhood storefront into a trusted cycling destination. Over three decades later, 
+                we’re proud to serve generations of riders who count on us for expertise, personalized 
+                service, and a genuine passion for cycling. Our story is rooted in community, and every 
+                milestone has been made possible by loyal riders like you.
+            </p>
+        </section>
+
+        <section id="section3">
+            <h3 class="subtitle">How We Work</h3>
+            <p>
+                We believe buying a bike should be as exciting as riding one. That is why our approach is 
+                always personal: we take the time to listen, understand your needs, and match you with 
+                the right bike and accessories. From expert fittings to reliable maintenance and repair, 
+                our goal is to keep you riding safely, confidently, and with a smile. At McLareen, 
+                you are not just a customer, you are part of our cycling family.
+            </p>
+        </section>
+    </div>
+</body>
+</html>
